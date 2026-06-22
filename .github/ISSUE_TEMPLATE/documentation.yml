@@ -1,0 +1,23 @@
+name: Documentation issue
+description: Report missing, unclear, or outdated documentation.
+title: "[Docs]: "
+labels: ["documentation", "needs-triage"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or file
+      placeholder: README.md, MODEL_CATALOG.md, docs/TROUBLESHOOTING.md
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is missing or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested clarification
+
