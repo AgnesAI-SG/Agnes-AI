@@ -22,6 +22,12 @@ Agnes AI gives developers OpenAI-compatible access to multimodal models for text
 | API Platform | https://platform.agnes-ai.com/ |
 | API Base URL | `https://apihub.agnes-ai.com/v1` |
 
+## Language Support
+
+Agnes AI supports multilingual application workflows across chat, vision-language, image, and video generation models. Developers can send prompts and build user-facing experiences in multiple languages, subject to the capabilities and safety behavior of each selected model.
+
+The official GitHub documentation, issues, and discussions are maintained primarily in English so integration reports, feature requests, and community answers remain easy to search and reuse. When reporting a language-specific behavior, include the input language, expected output language, model name, endpoint, and a minimal reproducible request.
+
 ## Developer Resources
 
 | Resource | Purpose |
