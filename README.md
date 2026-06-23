@@ -9,7 +9,7 @@ Agnes AI gives developers OpenAI-compatible access to multimodal models for text
 | Field | Value |
 | --- | --- |
 | Public documentation version | `2026.06.22` |
-| Last updated | `2026-06-22 00:00 Asia/Shanghai` |
+| Last updated | `2026-06-22 00:00 Asia/Singapore` |
 | Source of truth | Official website and API platform |
 | Change notice | Model availability, rate limits, pricing, and quota rules may change over time. Always confirm production-critical values in the official docs or platform console. |
 
