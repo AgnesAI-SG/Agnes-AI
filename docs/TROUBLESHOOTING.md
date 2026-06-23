@@ -4,6 +4,8 @@ Last updated: `2026-06-22 00:00 Asia/Singapore`
 
 Use this guide when an Agnes AI API integration fails or behaves differently than expected.
 
+For a bilingual Chinese and English status-code reference, see [`ERROR_CODES.md`](./ERROR_CODES.md).
+
 ## Quick Checklist
 
 1. Confirm the base URL is `https://apihub.agnes-ai.com/v1`.
@@ -84,4 +86,3 @@ Include:
 - Whether the issue is reproducible
 
 Do not include API keys, private account data, or customer content.
-
