@@ -59,9 +59,9 @@ The values below are current public reference values as of `2026-06-22`. They ar
 
 | Plan | `agnes-2.0-flash` | `agnes-image-2.0/2.1-flash` | `agnes-video-v2.0` |
 | --- | --- | --- | --- |
-| Starter `$4` | 1,500 requests per 5 hours; 15,000 requests per week | 4,000 images per day | 500 seconds per day |
-| Plus `$10` | 7,500 requests per 5 hours; 75,000 requests per week | 4,000 images per day | 500 seconds per day |
-| Pro `$50` | 30,000 requests per 5 hours; 300,000 requests per week | 4,000 images per day | 500 seconds per day |
+| Starter  | 1,500 requests per 5 hours; 15,000 requests per week | 4,000 images per day | 500 seconds per day |
+| Plus  | 7,500 requests per 5 hours; 75,000 requests per week | 4,000 images per day | 500 seconds per day |
+| Pro  | 30,000 requests per 5 hours; 300,000 requests per week | 4,000 images per day | 500 seconds per day |
 
 For detailed per-model RPM tables, see [`MODEL_CATALOG.md`](./MODEL_CATALOG.md).
 
