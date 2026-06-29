@@ -1,6 +1,6 @@
 # Agnes AI FAQ
 
-Last updated: `2026-06-22 00:00 Asia/Singapore`
+Last updated: `2026-06-28 00:00 Asia/Singapore`
 
 ## What is the API base URL?
 
@@ -29,9 +29,21 @@ POST /v1/chat/completions
 
 ## What are the current limits?
 
-See `MODEL_CATALOG.md` for the current reference RPM and subscription quota tables.
+See [`MODEL_CATALOG.md`](../MODEL_CATALOG.md) for the current reference RPM and subscription quota tables. See [`TOKEN_PLAN_FAQ.md`](./TOKEN_PLAN_FAQ.md) for access types, Token Plan quotas, and API key limit-pool behavior.
 
 Limits may change over time. Always confirm production-critical values in the official Agnes AI platform console.
+
+## What changed in the 2026-06-28 limit update?
+
+The public reference video RPM values were updated:
+
+| User type | Public request RPM | Actual executable RPM |
+| --- | ---: | ---: |
+| Free / default | 2 | 1 |
+| Enterprise | 2 | 2 |
+| Token Plan | 6 | 5 |
+
+Token Plan video subscription quota remains `500 seconds per day`.
 
 ## What is the current `agnes-2.0-flash` context window?
 
@@ -52,4 +64,3 @@ Do not use `task_id` for current video result polling unless a legacy integratio
 Include the model, endpoint, SDK or client, sanitized request body, error code, expected behavior, actual behavior, and whether the issue is reproducible.
 
 Do not include API keys, bearer tokens, private logs, or customer data.
-
