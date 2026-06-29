@@ -6,9 +6,10 @@ This catalog summarizes the public Agnes AI model families and the recommended A
 
 | Field | Value |
 | --- | --- |
-| Catalog version | `2026.06.22` |
-| Last updated | `2026-06-22 00:00 Asia/Singapore` |
+| Catalog version | `2026.06.28` |
+| Last updated | `2026-06-28 00:00 Asia/Singapore` |
 | Scope | Public model, endpoint, quota, and troubleshooting reference |
+| Latest rate-limit update | Video model RPM updated on `2026-06-28` |
 | Change notice | Rate limits, subscription quotas, model parameters, and availability may change. Treat the values in this catalog as current reference values, not permanent contractual limits. |
 
 ## API Base URLs
@@ -71,7 +72,7 @@ GET https://apihub.agnes-ai.com/v1/videos/{task_id}
 
 ## Current Rate Limits
 
-These values are current public reference values as of `2026-06-22`. Use the official platform console as the final source of truth for production traffic planning.
+These values are current public reference values as of `2026-06-28`. Base Token Plan quota values were published on `2026-06-22`; video model RPM values were updated on `2026-06-28`. Use the official platform console as the final source of truth for production traffic planning.
 
 ### Text Model RPM
 
@@ -102,9 +103,9 @@ These values are current public reference values as of `2026-06-22`. Use the off
 
 | Model Type | User Type | Public Request RPM | Actual Executable RPM |
 | --- | --- | ---: | ---: |
-| Video models | Free / default | 30 | 20 |
-| Video models | Enterprise | 60 | 40 |
-| Video models | Token Plan | 100 | 100 |
+| Video models | Free / default | 2 | 1 |
+| Video models | Enterprise | 2 | 2 |
+| Video models | Token Plan | 6 | 5 |
 
 ### RPM Field Definitions
 
@@ -115,7 +116,7 @@ These values are current public reference values as of `2026-06-22`. Use the off
 
 ## Current Subscription Quotas
 
-These quota values are current public reference values as of `2026-06-22` and may be adjusted in later pricing or capacity updates.
+These quota values are current public reference values as of `2026-06-28` and may be adjusted in later pricing or capacity updates.
 
 | Plan | Price | `agnes-2.0-flash` | `agnes-image-2.0/2.1-flash` | `agnes-video-v2.0` |
 | --- | ---: | --- | --- | --- |
