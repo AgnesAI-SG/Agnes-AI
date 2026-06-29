@@ -1,0 +1,14 @@
+[project]
+name = "agnes-ai-examples"
+version = "0.1.0"
+description = "Python examples for the Agnes AI OpenAI-compatible API gateway."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "openai>=1.40.0",
+    "requests>=2.32.0",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
